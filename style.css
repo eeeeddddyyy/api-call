@@ -120,6 +120,8 @@ button {
     color: #4c5372;
     background-color: #fffde6;
     transition: background-color 0.3s ease;
+    padding: 10px 20px;
+    box-shadow: #e8b15d;
 }
 footer {
     color: #fff;
