@@ -27,7 +27,6 @@ const apiUrl = "https://api.artic.edu/api/v1/artworks";
         artworksDiv.appendChild(column);
       });
 
-      // Adjust button visibility based on page
       document.getElementById('prevButton').style.display = page > 1 ? 'inline-block' : 'none';
       document.getElementById('nextButton').style.display = artworks.length === 10 ? 'inline-block' : 'none';
 
