@@ -26,7 +26,7 @@ nav ul {
     font-style: normal;
     text-align: center;
     list-style: none;
-    padding: 30px;
+    padding: 20px;
     justify-content: center;
     margin-top: 0;
     margin-bottom: 20px;
@@ -43,7 +43,7 @@ nav li a {
     color: #567C8D;
     text-decoration: none;
     display: inline-block;
-    letter-spacing: 0.18em;
+    letter-spacing: 0.1em;
 }
 nav li a:hover {
     background-color: #e8b15d;
