@@ -16,7 +16,7 @@ h1 {
     font-weight: 700;
     font-style: normal;
     text-align: center;
-    color: #4c5372;
+    color: #2b3454;
     font-size: 80px;
     text-shadow: 10px 14px 18px #e8b15d;
 }
@@ -30,6 +30,7 @@ nav ul {
     justify-content: center;
     margin-top: 0;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 nav li {
     display: table-cell;
@@ -82,6 +83,7 @@ p {
     font-family: "Montagu Slab", serif;
     font-size: 20px;
     color: black;  
+    font-weight: 600;
 }
 #artworks {
     display: flex;
@@ -121,10 +123,18 @@ button {
     background-color: #fffde6;
     transition: background-color 0.3s ease;
     padding: 10px 20px;
-    box-shadow: #e8b15d;
+    box-shadow: 0px 10px 14px -7px #e8b15d;
+	background-color: #4c5372;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#fffde6;
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:none;
 }
 footer {
-    color: #fff;
+    color: #fffde6;
     padding: 10px;
     margin-top: 20px;
     font-size: 1em;
